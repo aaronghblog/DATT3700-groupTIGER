@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 796.0, 138.0, 84.0, 20.0 ],
+					"text" : "Room model"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -82,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1913.115256190299988, 1096.0, 50.0, 22.0 ],
-					"text" : "0.97"
+					"text" : "0.92"
 				}
 
 			}
@@ -93,8 +104,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1913.115256190299988, 974.0, 47.0, 22.0 ],
-					"text" : ">= -1.8"
+					"patching_rect" : [ 1913.115256190299988, 974.0, 40.0, 22.0 ],
+					"text" : ">= -2."
 				}
 
 			}
@@ -117,8 +128,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2079.5, 974.0, 36.0, 22.0 ],
-					"text" : "<= 1."
+					"patching_rect" : [ 2079.5, 974.0, 43.0, 22.0 ],
+					"text" : "<= 0.9"
 				}
 
 			}
@@ -250,7 +261,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2748.460208892822266, 554.451333343982697, 167.0, 22.0 ],
-					"text" : "publish a-mqtt/Z-axis 0.4"
+					"text" : "publish a-mqtt/Z-axis 1.8"
 				}
 
 			}
@@ -560,7 +571,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1944.015231907367706, 1175.251335740089417, 157.0, 22.0 ],
-					"text" : "0.97 0.91 0.4"
+					"text" : "0.92 0.65 1.8"
 				}
 
 			}
@@ -789,7 +800,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2070.0, 554.451333343982697, 158.0, 22.0 ],
-					"text" : "publish a-mqtt/X-axis 497."
+					"text" : "publish a-mqtt/X-axis 493."
 				}
 
 			}
